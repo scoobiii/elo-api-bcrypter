@@ -11,12 +11,13 @@ Essa lib foi feita pra ajudar ao criar um usuário (`createUser`) e realizar log
 ```gradle
 dependencies {
     // Para gradle versão 3+
-    implementation files('libs/bcrypt-0.1.0.jar')
+    implementation files('libs/bcrypt-X.X.X.jar')
 
     // Ou se o seu gradle for a versão 2 ou menor
-    compile files('libs/bcrypt-0.1.0.jar')
+    compile files('libs/bcrypt-X.X.X.jar')
 }
 ```
+> **OBS:** Não esqueça de alterar o **X.X.X** pela versão do **.jar** baixado.
 
 ## Como usar
 
