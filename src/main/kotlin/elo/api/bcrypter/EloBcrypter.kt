@@ -1,3 +1,4 @@
+@file:JvmName("EloBcrypter")
 package elo.api.bcrypter
 
 import org.mindrot.jbcrypt.BCrypt

@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298d2f8f-94fe-4f2e-bf50-db3b58c83b93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/bcrypt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bcrypt.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bcrypt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bcrypt-0.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/EloBcrypter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/JTestPasswordHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/TestPasswordHash.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bcrypt-0.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/EloBcrypter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/EloBcrypter.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,13 +51,14 @@
     <session id="2059391090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,16 +85,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="37" />
-          <entry key="gradle" value="72" />
+          <entry key="gradle" value="73" />
           <entry key="java" value="231" />
-          <entry key="kt" value="2957" />
+          <entry key="kt" value="2992" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="72" />
+          <entry key="Groovy" value="73" />
           <entry key="JAVA" value="231" />
-          <entry key="Kotlin" value="2957" />
+          <entry key="Kotlin" value="2992" />
           <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
@@ -121,22 +105,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/TestPasswordHash.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#26#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/JTestPasswordHash.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -160,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="126">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -177,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="72">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
                 <element signature="e#26#86#0" expanded="true" />
               </folding>
@@ -189,10 +161,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/EloBcrypter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state>
+              <caret selection-end-column="28" />
               <folding>
-                <element signature="e#26#113#0" expanded="true" />
+                <element signature="e#42#129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,7 +186,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-all/41c9mvq2w0645xx6nsenaerjl/gradle-4.8" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -414,9 +386,9 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="4232804901" />
-        <entry key="$PROJECT_DIR$" value="7679304860000" />
+        <entry key="$PROJECT_DIR$" value="7679454679000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1751054841" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="128572293" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3609633566" />
       </map>
@@ -722,13 +694,13 @@
         <option value="$PROJECT_DIR$/src/test/kotlin/TestPasswordHash.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/Extension.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/JBcryptBase64.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/EloBcrypter.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/TestPasswordHash.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/JTestPasswordHash.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/EloBcrypter.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -744,12 +716,29 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="bcrypt" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="bcrypt" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="bcrypt" type="b2602c69:ProjectViewProjectNode" />
               <item name="elo-api-bcrypter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="bcrypt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elo-api-bcrypter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bcrypt" type="b2602c69:ProjectViewProjectNode" />
@@ -806,18 +795,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="bcrypt" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="bcrypt" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -826,7 +803,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bcrypt" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536863923105" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536935564434" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -954,7 +931,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3193138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3231876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1028,10 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="919" column="53" lean-forward="true" selection-start-line="919" selection-start-column="53" selection-end-line="919" selection-end-column="53" />
-          <folding>
-            <element signature="e#3574#3575#0" expanded="true" />
-            <element signature="e#3613#3614#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,13 +1015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/Extension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/Extension.kt" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.51/649a609725b857dd285cf69d49d4f1f77335076e/kotlin-stdlib-1.2.51-sources.jar!/generated/_ArraysJvm.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1070,13 +1037,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/JBcryptBase64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/JBcryptBase64.java" />
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1087,16 +1048,21 @@
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/JTestPasswordHash.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/TestPasswordHash.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="e#26#86#0" expanded="true" />
+            <element signature="e#26#81#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1107,47 +1073,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/EloBcrypter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state>
+          <caret selection-end-column="28" />
           <folding>
-            <element signature="e#26#113#0" expanded="true" />
+            <element signature="e#42#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/TestPasswordHash.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/elo/api/bcrypter/BcryptBase64.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="72">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
-            <element signature="e#26#81#0" expanded="true" />
+            <element signature="e#26#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/elo/api/bcrypter/JTestPasswordHash.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>

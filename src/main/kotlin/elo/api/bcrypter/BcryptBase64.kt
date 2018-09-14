@@ -1,9 +1,10 @@
+@file:JvmName("BcryptBase64")
 package elo.api.bcrypter
 
 import kotlin.experimental.and
 import kotlin.experimental.or
 
-internal object BcryptBase64 {
+object BcryptBase64 {
 
     private infix fun Byte.shr(bitCount: Int): Byte {
         return (toInt() shr bitCount).toByte()
@@ -17,7 +18,8 @@ internal object BcryptBase64 {
     private val BASE64_BCRYPT_ALPHABET = "./ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".toCharArray()
 
     @Throws(IllegalArgumentException::class)
-    internal fun encodeBcryptBase64(b: ByteArray, len: Int): String {
+    @JvmStatic
+    fun encodeBcryptBase64(b: ByteArray, len: Int): String {
         var off = 0
         val rs = StringBuffer()
         var c1: Byte
@@ -48,10 +50,5 @@ internal object BcryptBase64 {
             rs.append(BASE64_BCRYPT_ALPHABET[(c2 and 0x3f).toInt()])
         }
         return rs.toString()
-    }
-
-    @JvmStatic
-    fun main(args: Array<String>) {
-        println(encodeBcryptBase64("12345678901234567890".toByteArray(), 16))
     }
 }
