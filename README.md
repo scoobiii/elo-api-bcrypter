@@ -1,4 +1,4 @@
-# Elo API BCrypter (Java / Kotlin)
+# Elo API BCrypter (Java / Kotlin) to PLIMM
 
 Essa lib foi feita pra ajudar ao criar um usuário (`createUser`) e realizar login (`login`) na plataforma de API's Elo.
 
